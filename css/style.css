@@ -5,7 +5,7 @@ body{
 
 .flex-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .flex-item{
@@ -14,7 +14,7 @@ body{
 
 
 #first-section-img img{
-    width: 120%;
+    width: 100%;
     height: 100%;
 }
 
@@ -24,9 +24,25 @@ h1{
     font-size: 40px;
 }
 
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    color: #FF5403;
+}
+
+.align-center{
+    text-align: center;
+}
+
 p{
     font-family: 'Sora', sans-serif;
     font-size: 18px;
+    text-align: justify;
 }
 
 a{
@@ -54,7 +70,7 @@ a{
 
 section{
     padding: 50px;
-    width: 80%;
+    
 }
 
 #first-section-header{  
@@ -63,4 +79,30 @@ section{
 #first-section-header h1{
     margin-left: 10px;
 }
+
+.card{
+    padding: 20px;
+    width: 350px;
+    border-radius: 13px;
+}
+
+.card img{
+    height: 100px;
+    width: 100px;
+}
+
+#second-section .flex-container{
+    margin-top: 80px;
+}
+
+.first-card{
+    background-color: #edf5f6;
+}
+.second-card{
+    background-color: #ffeeee;
+}
+.third-card{
+    background-color: #fff4d6;
+}
+
 
