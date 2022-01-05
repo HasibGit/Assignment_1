@@ -119,4 +119,48 @@ section{
     border-radius: 10px;
 }
 
+.game-item{
+    padding: 20px;
+    width: 180px;
+    border-radius: 13px;
+    box-shadow: 5px 4px 10px gray;
+}
+
+.game-item:hover{
+    box-shadow: 5px 4px 10px #93FFD8;
+}
+
+.game-item img{
+    height: 150px;
+    width: 100%;
+}
+
+#fifth-section .flex-container{
+    margin-bottom: 40px;
+}
+
+.make-black{
+    color: black;
+}
+
+.make-gray-bold{
+    color: #C9CCD5;
+    font-weight: bold;
+}
+
+.score-color{
+    color: #FF0000;
+}
+
+footer{
+    background-color: black;
+    padding: 15px;
+}
+
+footer p{
+    font-size: 16px;
+    color: white;
+}
+
+
 
